@@ -2,18 +2,20 @@ weather_forecast
 天气查询系统
 # 简介 
 可查询全国大部分城市或区的天气信息
+* [和风天气中国城市列表](https://cdn.heweather.com/china-city-list.txt)
 ## 输入：
-用户输入城市名
+用户通过输入框输入城市名或者通过下拉框选择城市
 ## 输出：
 用户得到输出结果为：城市的三天天气信息丶生活指数丶经纬度
 ## 从输入到输出，除了flask模块,本组作品使用了：
 ### 模块
 * [urllib.request](https://docs.python.org/3.5/library/urllib.html)
+* [json](https://docs.python.org/2/library/json.html)
 ### 数据
 * [城市名及城市码文档](https://github.com/Observer-L/nfu_newmedia_python/blob/master/weather_forecast/city.txt)
 ### API
-* [和风天气](https://www.heweather.com//)
-每天限量免费访问4000次
+* [和风天气](https://www.heweather.com//)每天限量免费访问4000次
+* [和风天气API说明文档](https://www.heweather.com/documents/api/v5/forecast)
 ## Web App动作描述
 
 以下按web 请求（web request） - web 响应 时序说明
