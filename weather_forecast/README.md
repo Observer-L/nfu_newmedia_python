@@ -1,12 +1,12 @@
-weather_forecast
 天气查询系统
+英文项目名称weather_forecast，中文项目名称观测站
 # 简介 
-可查询全国大部分城市或区的天气信息
+天气查询系统，输入方面用户可输入框输入城市名或者通过下拉框选择城市（如输入北京朝阳），输出该城市的天气信息（如北京朝阳最近三天天气情况、生活指数、经纬度等信息），数据来源于和风天气平台取得的json档
 * [和风天气中国城市列表](https://cdn.heweather.com/china-city-list.txt)
 ## 输入：
-用户通过输入框输入城市名或者通过下拉框选择城市
+用户通过输入框输入城市名或者通过下拉框选择城市，详见：[templates/entry.html](templates/entry.html)
 ## 输出：
-用户得到输出结果为：城市的三天天气信息丶生活指数丶经纬度
+用户得到输出结果为：城市的三天天气信息丶生活指数丶经纬度，详见：[templates/results.html](templates/results.html)
 ## 从输入到输出，除了flask模块,本组作品使用了：
 ### 模块
 * [urllib.request](https://docs.python.org/3.5/library/urllib.html)
